@@ -29,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		75134904220C85090013D499 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		75134907220C8EFD0013D499 /* DataStructuresUMLSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DataStructuresUMLSS.png; path = ../../../../DataStructuresUMLSS.png; sourceTree = "<group>"; };
+		75134909220C92A80013D499 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LinearNode.hpp; path = ../../../../../LinearNode.hpp; sourceTree = "<group>"; };
 		75E6B38E21FF5CC800E9D5A1 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E6B39121FF5CC800E9D5A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		75E6B39C21FF5DBD00E9D5A1 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				75E6B3A121FF60D800E9D5A1 /* Node.hpp */,
+				75134909220C92A80013D499 /* LinearNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 		75E6B39921FF5D2200E9D5A1 /* Diagrams */ = {
 			isa = PBXGroup;
 			children = (
+				75134907220C8EFD0013D499 /* DataStructuresUMLSS.png */,
 			);
 			path = Diagrams;
 			sourceTree = "<group>";
