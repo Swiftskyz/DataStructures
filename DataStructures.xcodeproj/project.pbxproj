@@ -64,6 +64,23 @@
 			path = Linear;
 			sourceTree = "<group>";
 		};
+		75134905220C858D0013D499 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75134903220C84E30013D499 /* Linear */,
+				75134906220C859F0013D499 /* Nodes */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75134906220C859F0013D499 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				75E6B3A121FF60D800E9D5A1 /* Node.hpp */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
 		75E6B38521FF5CC700E9D5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +100,7 @@
 		75E6B39021FF5CC800E9D5A1 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				75134903220C84E30013D499 /* Linear */,
-				75E6B39B21FF5D3000E9D5A1 /* Model */,
+				75134905220C858D0013D499 /* Model */,
 				75E6B39A21FF5D2900E9D5A1 /* Controller */,
 				75E6B39921FF5D2200E9D5A1 /* Diagrams */,
 				75E6B39821FF5D1600E9D5A1 /* Resources */,
@@ -116,14 +132,6 @@
 				75E6B39F21FF5EAD00E9D5A1 /* Runner.cpp */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		75E6B39B21FF5D3000E9D5A1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				75E6B3A121FF60D800E9D5A1 /* Node.hpp */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		75EAD14D2209DE4300D6954B /* Tools */ = {
