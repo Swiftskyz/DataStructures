@@ -1,13 +1,13 @@
 //
-//  Stack.h
+//  Stack.hpp
 //  DataStructures
 //
 //  Created by Himeno, Skylar on 2/11/19.
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef Stack_h
-#define Stack_h
+#ifndef Stack_hpp
+#define Stack_hpp
 
 #include "LinkedList.hpp"
 

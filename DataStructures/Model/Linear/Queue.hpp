@@ -1,13 +1,13 @@
 //
-//  Queue.h
+//  Queue.hpp
 //  DataStructures
 //
 //  Created by Himeno, Skylar on 2/13/19.
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef Queue_h
-#define Queue_h
+#ifndef Queue_hpp
+#define Queue_hpp
 
 #include "LinkedList.hpp"
 
@@ -118,6 +118,13 @@ Type Queue<Type> :: peek()
 {
     assert(this->size > 0);
     return this->getFront()->getData();
+}
+
+template <class Type>
+Type Queue<Type> :: getFromIndex(int index)
+{
+    assert(index == 0);
+    return peek();
 }
 
 

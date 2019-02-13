@@ -1,5 +1,5 @@
 //
-//  LinkedList.h
+//  LinkedList.hpp
 //  DataStructures
 //
 //  Created by Himeno, Skylar on 2/11/19.
@@ -10,8 +10,8 @@
 
 using namespace std; //Used for keyword access. Use this to make sure your pointers are pointing is the right things
 
-#ifndef LinkedList_h
-#define LinkedList_h
+#ifndef LinkedList_hpp
+#define LinkedList_hpp
 
 template <class Type>
 class LinkedList : public List<Type>
