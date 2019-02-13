@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751EEF6F2214786C004A766B /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751EEF6D2214786C004A766B /* FileController.cpp */; };
 		75E6B39221FF5CC800E9D5A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B39121FF5CC800E9D5A1 /* main.cpp */; };
 		75E6B39E21FF5DBD00E9D5A1 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B39C21FF5DBD00E9D5A1 /* Controller.cpp */; };
 		75E6B3A021FF5EAD00E9D5A1 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B39F21FF5EAD00E9D5A1 /* Runner.cpp */; };
@@ -31,6 +32,9 @@
 		75134904220C85090013D499 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		75134907220C8EFD0013D499 /* DataStructuresUMLSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DataStructuresUMLSS.png; path = ../../../../DataStructuresUMLSS.png; sourceTree = "<group>"; };
 		75134909220C92A80013D499 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LinearNode.hpp; path = ../../../../../LinearNode.hpp; sourceTree = "<group>"; };
+		751EEF6C22147450004A766B /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		751EEF6D2214786C004A766B /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
+		751EEF6E2214786C004A766B /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		75AE46A02211C7AC00174088 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		75AE46A12211D6C700174088 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		75E6B38E21FF5CC800E9D5A1 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +70,7 @@
 				75134904220C85090013D499 /* List.hpp */,
 				75AE46A02211C7AC00174088 /* LinkedList.h */,
 				75AE46A12211D6C700174088 /* Stack.h */,
+				751EEF6C22147450004A766B /* Queue.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -135,9 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				75EAD14D2209DE4300D6954B /* Tools */,
-				75E6B39C21FF5DBD00E9D5A1 /* Controller.cpp */,
-				75E6B39D21FF5DBD00E9D5A1 /* Controller.hpp */,
-				75E6B39F21FF5EAD00E9D5A1 /* Runner.cpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +155,11 @@
 				75EAD1552209F01D00D6954B /* music.csv */,
 				75EAD1562209F02A00D6954B /* Music.cpp */,
 				75EAD1582209F03500D6954B /* Music.hpp */,
+				751EEF6D2214786C004A766B /* FileController.cpp */,
+				751EEF6E2214786C004A766B /* FileController.hpp */,
+				75E6B39C21FF5DBD00E9D5A1 /* Controller.cpp */,
+				75E6B39D21FF5DBD00E9D5A1 /* Controller.hpp */,
+				75E6B39F21FF5EAD00E9D5A1 /* Runner.cpp */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -218,6 +225,7 @@
 				75E6B39221FF5CC800E9D5A1 /* main.cpp in Sources */,
 				75EAD1572209F02A00D6954B /* Music.cpp in Sources */,
 				75E6B39E21FF5DBD00E9D5A1 /* Controller.cpp in Sources */,
+				751EEF6F2214786C004A766B /* FileController.cpp in Sources */,
 				75EAD1502209DE8800D6954B /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
