@@ -14,7 +14,9 @@ using namespace std;
 
 class Controller
 {
-    
+private:
+    void usingNodes();
+    void testLinear();
 public:
     void start( );
 };
