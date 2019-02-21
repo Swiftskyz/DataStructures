@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		75134904220C85090013D499 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
-		75134907220C8EFD0013D499 /* DataStructuresUMLSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DataStructuresUMLSS.png; path = ../../../../DataStructuresUMLSS.png; sourceTree = "<group>"; };
 		75134909220C92A80013D499 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LinearNode.hpp; path = ../../../../../LinearNode.hpp; sourceTree = "<group>"; };
 		751EEF6C22147450004A766B /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		751EEF6D2214786C004A766B /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
@@ -44,6 +43,8 @@
 		751EEF97221481D6004A766B /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		751EEF99221481DB004A766B /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		751EEF9A221481E0004A766B /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
+		75AA3D31221C647F00E63DFE /* Data Structures UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures UML.png"; sourceTree = "<group>"; };
+		75AA3D32221C648C00E63DFE /* NodeTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NodeTypes.png; sourceTree = "<group>"; };
 		75AE46A02211C7AC00174088 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		75AE46A12211D6C700174088 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		75E6B38E21FF5CC800E9D5A1 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,7 +151,8 @@
 		75E6B39921FF5D2200E9D5A1 /* Diagrams */ = {
 			isa = PBXGroup;
 			children = (
-				75134907220C8EFD0013D499 /* DataStructuresUMLSS.png */,
+				75AA3D31221C647F00E63DFE /* Data Structures UML.png */,
+				75AA3D32221C648C00E63DFE /* NodeTypes.png */,
 			);
 			path = Diagrams;
 			sourceTree = "<group>";
