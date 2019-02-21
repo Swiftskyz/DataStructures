@@ -44,6 +44,7 @@
 		751EEF99221481DB004A766B /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		751EEF9A221481E0004A766B /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		7597ECD9221EF0EC0041ED71 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
+		7597ECDA221EF80D0041ED71 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		75AA3D31221C647F00E63DFE /* Data Structures UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures UML.png"; sourceTree = "<group>"; };
 		75AA3D32221C648C00E63DFE /* NodeTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NodeTypes.png; sourceTree = "<group>"; };
 		75AE46A02211C7AC00174088 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 				75AE46A02211C7AC00174088 /* LinkedList.hpp */,
 				75AE46A12211D6C700174088 /* Stack.hpp */,
 				751EEF6C22147450004A766B /* Queue.hpp */,
+				7597ECDA221EF80D0041ED71 /* CircularList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
