@@ -17,12 +17,16 @@
 #include "../Model/Linear/Queue.hpp"
 
 #include <iostream>
+
 using namespace std;
 
 class LinearTester
 {
 public:
     void testVsSTL();
+    void testVsStack();
+    void testVsQueue();
+    void testVsDouble();
 };
 
 
