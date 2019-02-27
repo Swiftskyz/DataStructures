@@ -45,7 +45,7 @@ void LinearTester :: testVsSTL()
 
 void LinearTester :: testVsStack()
 {
-    Timer crimeTimerStack, crimeTimerOOP, musicStack, musicstack;
+    Timer crimeTimerStack, crimeTimerOOP, musicStack, musicOOP;
     
     crimeTimerStack.startTimer();
     vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/shim6662/Documents/C++ Folder/DataStructures/DataStructures/Resources/crime.csv");
@@ -77,3 +77,39 @@ void LinearTester :: testVsStack()
     musicStack.resetTimer();
     
 }
+
+void LinearTester :: testVsQueue()
+{
+    Timer crimeTimerQueue, crimeTimerOOP, musicQueue, musicOOP;
+    
+    crimeTimerQueue.startTimer();
+    vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/shim6662/Documents/C++ Folder/DataStructures/DataStructures/Resources/crime.csv");
+    crimeTimerQueue.stopTimer();
+    
+    crimeTimerOOP.startTimer();
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/shim6662/Documents/C++ Folder/DataStructures/DataStructures/Resources/crime.csv");
+    crimeTimerOOP.stopTimer();
+    
+    crimeTimerQueue.displayInformation();
+    crimeTimerOOP.displayInformation();
+    cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTesterQueue.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    musicQueue.startTimer();
+    vector<music> tunez = FileController :: musicDataToVector("/Users/shim6662/Documents/C++ Folder/DataStructures/DataStructures/Resources/music.csv");
+    musicQueue.stopTimer();
+    
+    musicOOP.startTimer();
+    LinkedList<music> musicList = FileController :: musicDataToList("/Users/shim6662/Documents/C++ Folder/DataStructures/DataStructures/Resources/music.csv");
+    musicOOP.stopTimer();
+    
+    musicQueue.displayInformation();
+    musicOOP.displayInformation();
+    cout << "A difference of: " << musicOOP.getTimeInMicroseconds() - musicQueue.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    crimeTimerOOP.resetTimer();
+    crimeTimerQueue.resetTimer();
+    musicOOP.resetTimer();
+    musicQueue.resetTimer();
+    
+}
+
