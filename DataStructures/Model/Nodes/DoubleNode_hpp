@@ -1,5 +1,5 @@
 //
-//  DoubleNode.h
+//  DoubleNode.hpp
 //  DataStructures
 //
 //  Created by Himeno, Skylar on 2/21/19.
@@ -8,8 +8,8 @@
 
 #include "Node.hpp"
 
-#ifndef DoubleNode_h
-#define DoubleNode_h
+#ifndef DoubleNode_hpp
+#define DoubleNode_hpp
 
 template <class Type>
 class DoubleNode : public Node<Type>
