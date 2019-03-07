@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		75134904220C85090013D499 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
-		75134909220C92A80013D499 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LinearNode.hpp; path = ../../../../../LinearNode.hpp; sourceTree = "<group>"; };
 		751EEF6C22147450004A766B /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		751EEF6D2214786C004A766B /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		751EEF6E2214786C004A766B /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
@@ -43,13 +42,14 @@
 		751EEF97221481D6004A766B /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		751EEF99221481DB004A766B /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		751EEF9A221481E0004A766B /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
-		7597ECD9221EF0EC0041ED71 /* DoubleNode_hpp */ = {isa = PBXFileReference; lastKnownFileType = text; path = DoubleNode_hpp; sourceTree = "<group>"; };
+		7597ECD9221EF0EC0041ED71 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		7597ECDA221EF80D0041ED71 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		75AA3D31221C647F00E63DFE /* Data Structures UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures UML.png"; sourceTree = "<group>"; };
 		75AA3D32221C648C00E63DFE /* NodeTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NodeTypes.png; sourceTree = "<group>"; };
 		75AE46A02211C7AC00174088 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		75AE46A12211D6C700174088 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		75DC945C2231678D00839C32 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		75DC945D2231799100839C32 /* LinearNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		75E6B38E21FF5CC800E9D5A1 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E6B39121FF5CC800E9D5A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		75E6B39C21FF5DBD00E9D5A1 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 		75134906220C859F0013D499 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				75DC945D2231799100839C32 /* LinearNode.hpp */,
 				75E6B3A121FF60D800E9D5A1 /* Node.hpp */,
-				75134909220C92A80013D499 /* LinearNode.hpp */,
-				7597ECD9221EF0EC0041ED71 /* DoubleNode_hpp */,
+				7597ECD9221EF0EC0041ED71 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
