@@ -12,6 +12,7 @@
 		751EEF95221481CD004A766B /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751EEF94221481CD004A766B /* Music.cpp */; };
 		751EEF98221481D6004A766B /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751EEF97221481D6004A766B /* CrimeData.cpp */; };
 		7538ECBC223FDB4D00883D16 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7538ECBA223FDB4D00883D16 /* GraphTester.cpp */; };
+		75C9B18B226618C0005E016E /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75C9B18A226618C0005E016E /* BinaryTreeTester.cpp */; };
 		75E6B39221FF5CC800E9D5A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B39121FF5CC800E9D5A1 /* main.cpp */; };
 		75E6B39E21FF5DBD00E9D5A1 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B39C21FF5DBD00E9D5A1 /* Controller.cpp */; };
 		75E6B3A021FF5EAD00E9D5A1 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B39F21FF5EAD00E9D5A1 /* Runner.cpp */; };
@@ -52,6 +53,11 @@
 		75AA3D32221C648C00E63DFE /* NodeTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NodeTypes.png; sourceTree = "<group>"; };
 		75AE46A02211C7AC00174088 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		75AE46A12211D6C700174088 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		75C9B18822661512005E016E /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		75C9B1892266180B005E016E /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		75C9B18A226618C0005E016E /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		75C9B18D22661D73005E016E /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
+		75C9B18E2266212E005E016E /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 		75DC945C2231678D00839C32 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		75DC945D2231799100839C32 /* LinearNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		75E6B38E21FF5CC800E9D5A1 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				751062D42232B835000878D3 /* Graph.hpp */,
+				75C9B18D22661D73005E016E /* Tree.hpp */,
 			);
 			path = "Non Linear";
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 				751EEF6C22147450004A766B /* Queue.hpp */,
 				7597ECDA221EF80D0041ED71 /* CircularList.hpp */,
 				75DC945C2231678D00839C32 /* Array.hpp */,
+				75C9B18E2266212E005E016E /* BinarySearchTree.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 				75DC945D2231799100839C32 /* LinearNode.hpp */,
 				75E6B3A121FF60D800E9D5A1 /* Node.hpp */,
 				7597ECD9221EF0EC0041ED71 /* DoubleNode.hpp */,
+				75C9B18822661512005E016E /* BinaryTreeNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -123,6 +132,8 @@
 				751EEF7222147EED004A766B /* LinearTester.hpp */,
 				7538ECBA223FDB4D00883D16 /* GraphTester.cpp */,
 				7538ECBB223FDB4D00883D16 /* GraphTester.hpp */,
+				75C9B1892266180B005E016E /* BinaryTreeTester.hpp */,
+				75C9B18A226618C0005E016E /* BinaryTreeTester.cpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				751EEF95221481CD004A766B /* Music.cpp in Sources */,
+				75C9B18B226618C0005E016E /* BinaryTreeTester.cpp in Sources */,
 				75E6B3A021FF5EAD00E9D5A1 /* Runner.cpp in Sources */,
 				75E6B39221FF5CC800E9D5A1 /* main.cpp in Sources */,
 				751EEF7322147EED004A766B /* LinearTester.cpp in Sources */,
