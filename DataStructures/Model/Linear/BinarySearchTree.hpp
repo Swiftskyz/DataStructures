@@ -59,6 +59,66 @@ public:
     Type findMinimum();
     Type findMaximum();
     
+    template <class Type>
+    int BinarySearchTree<Type> :: getHeight()
+    {
+        return -1;
+    }
+    
+    template <class Type>
+    int BinarySearchTree<Type> :: getSize()
+    {
+        
+    }
+    
+    template <class Type>
+    bool BinarySearchTree<Tree> :: isComplete()
+    {
+        return false;
+    }
+    
+    template <class Type>
+    bool BinarySearchTree<Type> :: isBalanced()
+    {
+        return false;
+    }
+    
+    template <class Type>
+    void BinarySearchTree<Type> :: inOrderTraversal()
+    {
+        
+    }
+    
+    template >class Type>
+    void BinarySearchTree<Type> :: preOrderTraversal()
+    {
+        
+    }
+    
+    template <class Type>
+    void BinarySearchTree<Type> :: postOrderTraversal()
+    {
+        
+    }
+    
+    template <class Type>
+    void BinarySearchTree<Type> :: insert(Type item)
+    {
+        
+    }
+    
+    template <class Type>
+    void BinarySearchTree<Type> :: contains(Type value)
+    {
+        return false;
+    }
+    
+    template <class Type>
+    void BinarySearchTree<Type> :: remove(Type item)
+    {
+        
+    }
+    
 }
 
 #endif /* BinarySearchTree_hpp */
