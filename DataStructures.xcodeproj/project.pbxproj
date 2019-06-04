@@ -47,6 +47,7 @@
 		751EEF9A221481E0004A766B /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		7538ECBA223FDB4D00883D16 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		7538ECBB223FDB4D00883D16 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
+		7565054D22788D7200E0785C /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		7597ECD9221EF0EC0041ED71 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		7597ECDA221EF80D0041ED71 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		75AA3D31221C647F00E63DFE /* Data Structures UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures UML.png"; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 			children = (
 				751062D42232B835000878D3 /* Graph.hpp */,
 				75C9B18D22661D73005E016E /* Tree.hpp */,
+				7565054D22788D7200E0785C /* AVLTree.hpp */,
 			);
 			path = "Non Linear";
 			sourceTree = "<group>";
